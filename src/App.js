@@ -1,23 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="/logo.gif" className="App-logo"/>
+        <p>May 2-3, 2020 @ UCSD</p>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Check out our <a href="https://www.facebook.com/hackXXsd/" target="_blank">Facebook page</a> for updates!<br />
+          Interested in sponsoring? Contact us at <a href="mailto:sponsor@tesc.ucsd.edu" target="_blank">sponsor@tesc.ucsd.edu</a>.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
